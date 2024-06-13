@@ -1,0 +1,59 @@
+body {
+  background-image: url(https://images8.alphacoders.com/698/thumb-1920-698869.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  font-family: Arial, sans-serif;
+  margin: 3%;
+  padding: 10%;
+}
+
+#container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: linear-gradient(20deg, #FC1B1B, #d35400); /* Cambiados a tonos café y naranja */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #9633210; /* Cambiado a color naranja */
+  text-align: center;
+  font-family: fantasy;
+}
+
+p {
+  color: #000000;
+  margin-bottom: 20px;
+  font-family: Arial;
+}
+
+button {
+  background-color: #e67e22; /* Cambiado a color naranja */
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #d35400; /* Cambiado a tono más oscuro de naranja */
+}
+
+#output {
+  color: #CF9540; /* Cambiado a color naranja */
+  font-weight: bold;
+}
+
+.footer {
+  background: linear-gradient(20deg, #e67e22, #d35400); /* Cambiados a tonos café y naranja */
+  color: #fff;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
